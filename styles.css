@@ -1,0 +1,35 @@
+body {
+  color: olivedrab;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar {
+  /* padding: 1rem; */
+  background-color: azure;
+}
+
+.hero-background-img {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* You can control background image opacity this way without affecting the text overlaid */
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("https://images.unsplash.com/photo-1634496510773-f3c39737bf4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1271&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0.6;
+}
+
